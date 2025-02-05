@@ -70,6 +70,7 @@ public class SecurityConfig {
                                 .requestMatchers("/api/login").permitAll()
                                 .requestMatchers("/product").authenticated()
                 )
+
                 .build();
     }
 }
