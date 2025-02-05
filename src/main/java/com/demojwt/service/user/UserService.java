@@ -21,7 +21,6 @@ public class UserService implements IUserService, UserDetailsService {
     public List<User> findAll() {
         return List.of();
     }
-
     @Override
     public User findById(Long id) {
         return null;

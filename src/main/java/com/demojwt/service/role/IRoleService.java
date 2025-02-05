@@ -1,6 +1,5 @@
 package com.demojwt.service.role;
 
-
 import com.demojwt.model.Role;
 import com.demojwt.service.IGenericService;
 
