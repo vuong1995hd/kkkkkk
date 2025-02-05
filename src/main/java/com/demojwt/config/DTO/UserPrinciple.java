@@ -27,9 +27,9 @@ public class UserPrinciple implements UserDetails {
         this.authorities = authorities;
     }
 
-    //    chuyen tu user trong model -> User co kha nang phan quyen UserPrinciple
     public static UserPrinciple build(User user) {
-//        quyen de xac thuc -> GrantedAuthority
+
+
         List<GrantedAuthority> author = new ArrayList<>();
         for (Role role : user.getRoles()) {
             author.add(new SimpleGrantedAuthority(role.getName()));
